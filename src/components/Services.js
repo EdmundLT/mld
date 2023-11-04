@@ -20,6 +20,8 @@ const Services = () => {
               <div className="m-2 text-justify text-sm">
                 <img
                   alt="card img"
+                  width="400"
+                  height="400"
                   className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
                   src="https://thecleanables.com/wp-content/uploads/2022/06/New-Project.png"
                 />
@@ -48,6 +50,7 @@ const Services = () => {
               <div className="m-2 text-justify text-sm">
                 <img
                   alt="card img"
+                  width="350"
                   className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
                   src="https://www.enviropurehome.com/wp-content/uploads/2020/03/Group-105.png"
                 />

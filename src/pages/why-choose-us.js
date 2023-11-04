@@ -28,8 +28,8 @@ const WhyChooseUs = () => {
                   <div className="m-2 text-justify text-sm">
                     <img
                       alt="card img"
-                      className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
-                      src={img}
+                      className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out w-48 mx-auto"
+                      src="https://lk-cleaning.com/wp-content/uploads/2022/09/data-cleaning.png"
                     />
                     <h2 className="font-semibold my-4 text-lg text-center">
                       只採用有機清潔物料，安全、無毒；美國國家環境保護局 (EPA)
@@ -44,8 +44,8 @@ const WhyChooseUs = () => {
                   <div className="m-2 text-justify text-sm">
                     <img
                       alt="card img"
-                      className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
-                      src={img2}
+                      className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out w-48 mx-auto"
+                      src="https://lk-cleaning.com/wp-content/uploads/2022/09/vacuum-cleaner.png"
                     />
                     <h2 className="font-semibold my-4 text-lg text-center">
                       進口防過敏吸塵機，由德國過敏症及哮喘協會 (DAAB)
@@ -60,8 +60,8 @@ const WhyChooseUs = () => {
                   <div className="m-2 text-justify text-sm">
                     <img
                       alt="card img"
-                      className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
-                      src={img3}
+                      className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out w-48 mx-auto"
+                      src="https://lk-cleaning.com/wp-content/uploads/2022/09/mop-1-150x150.png"
                     />
                     <h2 className="font-semibold my-4 text-lg text-center ">
                       美國天然地毯清潔劑，保證百份百純天然成分，安全、沒有化學殘留物，令地毯氣味清新。
@@ -73,8 +73,8 @@ const WhyChooseUs = () => {
                   <div className="m-2 text-justify text-sm">
                     <img
                       alt="card img"
-                      className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
-                      src={img2}
+                      className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out w-48 mx-auto"
+                      src="https://lk-cleaning.com/wp-content/uploads/2022/09/bubbles-150x150.png"
                     />
                     <h2 className="font-semibold my-4 text-lg text-center">
                       天然納米消毒液殺滅細菌、病毒及霉菌；分解臭味和霉味。
@@ -86,8 +86,8 @@ const WhyChooseUs = () => {
                   <div className="m-2 text-justify text-sm">
                     <img
                       alt="card img"
-                      className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
-                      src={img2}
+                      className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out w-48 mx-auto"
+                      src="https://lk-cleaning.com/wp-content/uploads/2022/09/carpet-cleaner-150x150.png"
                     />
                     <h2 className="font-semibold my-4 text-lg text-center">
                       專業超細纖維布、納米高温消毒蒸氣機及
@@ -100,8 +100,8 @@ const WhyChooseUs = () => {
                   <div className="m-2 text-justify text-sm">
                     <img
                       alt="card img"
-                      className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
-                      src={img2}
+                      className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out w-48 mx-auto"
+                      src="https://lk-cleaning.com/wp-content/uploads/2022/09/laundry-detergent-150x150.png"
                     />
                     <h2 className="font-semibold my-4 text-lg text-center">
                       保護您的家庭遠離哮喘、感冒和流感症狀、花粉過敏症、咽喉腫痛或皮膚痕癢等過敏反應；減少對過敏藥物的依賴。
@@ -125,11 +125,9 @@ const WhyChooseUs = () => {
                       xmlns="http://www.w3.org/2000/svg"
                       width="72"
                       height="72"
-                      viewBox="0 0 24 24"
-                      className="fill-current"
+                      viewBox="0 0 512 512"
                     >
-                      <path d="M2 12h2a7.986 7.986 0 0 1 2.337-5.663 7.91 7.91 0 0 1 2.542-1.71 8.12 8.12 0 0 1 6.13-.041A2.488 2.488 0 0 0 17.5 7C18.886 7 20 5.886 20 4.5S18.886 2 17.5 2c-.689 0-1.312.276-1.763.725-2.431-.973-5.223-.958-7.635.059a9.928 9.928 0 0 0-3.18 2.139 9.92 9.92 0 0 0-2.14 3.179A10.005 10.005 0 0 0 2 12zm17.373 3.122c-.401.952-.977 1.808-1.71 2.541s-1.589 1.309-2.542 1.71a8.12 8.12 0 0 1-6.13.041A2.488 2.488 0 0 0 6.5 17C5.114 17 4 18.114 4 19.5S5.114 22 6.5 22c.689 0 1.312-.276 1.763-.725A9.965 9.965 0 0 0 12 22a9.983 9.983 0 0 0 9.217-6.102A9.992 9.992 0 0 0 22 12h-2a7.993 7.993 0 0 1-.627 3.122z"></path>
-                      <path d="M12 7.462c-2.502 0-4.538 2.036-4.538 4.538S9.498 16.538 12 16.538s4.538-2.036 4.538-4.538S14.502 7.462 12 7.462zm0 7.076c-1.399 0-2.538-1.139-2.538-2.538S10.601 9.462 12 9.462s2.538 1.139 2.538 2.538-1.139 2.538-2.538 2.538z"></path>
+                      <path d="M96 352V96c0-35.3 28.7-64 64-64H416c35.3 0 64 28.7 64 64V293.5c0 17-6.7 33.3-18.7 45.3l-58.5 58.5c-12 12-28.3 18.7-45.3 18.7H160c-35.3 0-64-28.7-64-64zM272 128c-8.8 0-16 7.2-16 16v48H208c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h48v48c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V256h48c8.8 0 16-7.2 16-16V208c0-8.8-7.2-16-16-16H320V144c0-8.8-7.2-16-16-16H272zm24 336c13.3 0 24 10.7 24 24s-10.7 24-24 24H136C60.9 512 0 451.1 0 376V152c0-13.3 10.7-24 24-24s24 10.7 24 24l0 224c0 48.6 39.4 88 88 88H296z" />
                     </svg>
                   </div>
                   <h3
@@ -150,10 +148,9 @@ const WhyChooseUs = () => {
                       xmlns="http://www.w3.org/2000/svg"
                       width="72"
                       height="72"
-                      viewBox="0 0 24 24"
-                      className="fill-current"
+                      viewBox="0 0 512 512"
                     >
-                      <path d="m7.375 16.781 1.25-1.562L4.601 12l4.024-3.219-1.25-1.562-5 4a1 1 0 0 0 0 1.562l5 4zm9.25-9.562-1.25 1.562L19.399 12l-4.024 3.219 1.25 1.562 5-4a1 1 0 0 0 0-1.562l-5-4zm-1.649-4.003-4 18-1.953-.434 4-18z"></path>
+                      <path d="M256 0c4.6 0 9.2 1 13.4 2.9L457.7 82.8c22 9.3 38.4 31 38.3 57.2c-.5 99.2-41.3 280.7-213.6 363.2c-16.7 8-36.1 8-52.8 0C57.3 420.7 16.5 239.2 16 140c-.1-26.2 16.3-47.9 38.3-57.2L242.7 2.9C246.8 1 251.4 0 256 0z" />
                     </svg>
                   </div>
                   <h3 className="text-3xl  text-blue-900 font-bold">
