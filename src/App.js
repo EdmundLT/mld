@@ -14,6 +14,8 @@ import DemoProduct from './pages/DemoProduct';
 
 import {useDocTitle} from './components/CustomHook';
 import ScrollToTop from './components/ScrollToTop';
+import AboutUs from './pages/about-us';
+import WhyChooseUs from './pages/why-choose-us';
 
 function App() {
   useEffect(() => {
@@ -30,7 +32,7 @@ function App() {
     });
   }, []);
 
-  useDocTitle("MLD | Molad e Konsult - Bespoke Web and Mobile Applications");
+  useDocTitle("良景清潔有限公司 | Leung King Cleaning Co. Ltd");
 
   return (
     <>
@@ -40,6 +42,8 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/get-demo" element={<DemoProduct />} /> 
+            <Route path="/about-us" element={<AboutUs />} /> 
+            <Route path="/why-choose-us" element={<WhyChooseUs />} /> 
           </Routes>
         </ScrollToTop>
       </Router>
