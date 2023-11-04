@@ -1,7 +1,5 @@
-import React, { useState } from "react";
 import NavBar from "../components/Navbar/NavBar";
 import Footer from "../components/Footer";
-import { Link } from "react-router-dom";
 import img from "../images/web.svg";
 import img2 from "../images/app.svg";
 import img3 from "../images/hosting.svg";
@@ -106,7 +104,7 @@ const WhyChooseUs = () => {
                       src={img2}
                     />
                     <h2 className="font-semibold my-4 text-lg text-center">
-                    保護您的家庭遠離哮喘、感冒和流感症狀、花粉過敏症、咽喉腫痛或皮膚痕癢等過敏反應；減少對過敏藥物的依賴。
+                      保護您的家庭遠離哮喘、感冒和流感症狀、花粉過敏症、咽喉腫痛或皮膚痕癢等過敏反應；減少對過敏藥物的依賴。
                     </h2>
                     <p className="text-md font-medium"></p>
                   </div>
@@ -142,7 +140,7 @@ const WhyChooseUs = () => {
                   </h3>
                   <div>
                     <p className="my-3 text-xl text-gray-600 font-semibold">
-                    保護您的家庭遠離哮喘、感冒和流感症狀、花粉過敏症、咽喉腫痛或皮膚痕癢等過敏反應。
+                      保護您的家庭遠離哮喘、感冒和流感症狀、花粉過敏症、咽喉腫痛或皮膚痕癢等過敏反應。
                     </p>
                   </div>
                 </div>
@@ -163,7 +161,7 @@ const WhyChooseUs = () => {
                   </h3>
                   <div>
                     <p className="my-3 text-xl text-gray-600 font-semibold">
-                    專設為孕婦、嬰幼兒、寵物和敏感人士，作為綠色防敏清潔方案，不會為客戶和環境帶來影響。
+                      專設為孕婦、嬰幼兒、寵物和敏感人士，作為綠色防敏清潔方案，不會為客戶和環境帶來影響。
                     </p>
                   </div>
                 </div>

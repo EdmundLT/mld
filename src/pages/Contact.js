@@ -7,7 +7,7 @@ import axios from "axios";
 import Notiflix from "notiflix";
 
 const Contact = () => {
-  useDocTitle("MLD | Molad e Konsult - Send us a message");
+  useDocTitle("良景清潔有限公司 | 聯絡我們");
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
